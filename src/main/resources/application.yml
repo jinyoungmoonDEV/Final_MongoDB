@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      authentication-database: test
+      database: test
+      port: 27017
+      host: localhost
+      auto-index-creation: true
