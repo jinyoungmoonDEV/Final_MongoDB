@@ -5,6 +5,7 @@ import com.example.mongo_pjt.domain.entity.Info;
 import com.example.mongo_pjt.repository.CategoryRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
+import org.springframework.data.mongodb.core.ReactiveMongoTemplate;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
